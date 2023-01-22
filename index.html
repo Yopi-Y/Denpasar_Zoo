@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="library/bootstrap-5.0.2-dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="library/fontawesome-free-6.2.1-web/css/all.css"
+    />
+    <link rel="stylesheet" href="css/css.css" />
+    <title>Kebun Binatang Flora dan Fauna</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-main fixed-top">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand font-main weight-main" href="index.html"
+            >Denpasar Zoo Flora and Fauna
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 hover-nav-main">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html#fauna"
+                  >Fauna</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html#flora"
+                  >Flora</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Guest Activity
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="animal_encounter.html"
+                      >Animal Encounter</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="bird_presentation.html"
+                      >Bird Presentation</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="flora_and_fauna_education.html"
+                      >Flora and Fauna Education</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="feeding_time.html"
+                      >Feeding Time</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="photo_spot.html"
+                      >Photo Spot</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="safari_night_walk.html"
+                      >Safari Night Walk</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="zoo_garden.html"
+                      >Zoo Garden Area</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="index.html#ga">All</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html#p"
+                  >Profile</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar end-->
+    </header>
+    <!-- Header end-->
+    <section>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="6"
+            aria-label="Slide 7"
+          ></button>
+        </div>
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100">
+            <img src="img/background/banner_1.png" class="d-block w-100" />
+          </div>
+          <div class="carousel-item h-100">
+            <img src="img/background/banner_2.png" class="d-block w-100" />
+          </div>
+          <div class="carousel-item h-100">
+            <img src="img/background/banner_3.png" class="d-block w-100" />
+          </div>
+          <div class="carousel-item h-100">
+            <img src="img/background/banner_4.png" class="d-block w-100" />
+          </div>
+          <div class="carousel-item h-100">
+            <img src="img/background/banner_5.png" class="d-block w-100" />
+          </div>
+          <div class="carousel-item h-100">
+            <img src="img/background/banner_6.png" class="d-block w-100" />
+          </div>
+          <div class="carousel-item h-100">
+            <img src="img/background/banner_7.png" class="d-block w-100" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Main Content -->
+    <!-- Widget -->
+    <div class="container">
+      <div class="row gy-4 mt-5">
+        <div class="col-sm-4">
+          <a href="index.html#fauna" class="text-decoration-none">
+            <div class="hov">
+              <div class="card shadow text-center">
+                <i class="fa-solid fa-paw fa-2x mt-4"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Fauna</h5>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="index.html#flora" class="text-decoration-none">
+            <div class="hov">
+              <div class="card shadow text-center">
+                <i class="fa-solid fa-leaf fa-2x mt-4"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Flora</h5>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="index.html#ga" class="text-decoration-none">
+            <div class="hov">
+              <div class="card shadow text-center">
+                <i class="fa-solid fa-users fa-2x mt-4"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Guest Activity</h5>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Widget end-->
+    <!-- Fauna Card -->
+    <h2 id="fauna" class="text-center my-5">
+      FAUNA <br />
+      DENPASAR ZOO
+    </h2>
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/fauna/jaguar.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Jaguar</h5>
+              <p class="card-text">
+                Jaguar adalah hewan karnivora yang tergolong dalam famili
+                Panthera dan merupakan satu-satunya jenis kucing yang hidup di
+                Amerika. Jaguar memiliki tubuh yang kuat dan berotot dengan
+                warna bulu yang beragam dari kuning ke coklat kehitaman, dengan
+                pola garis-garis hitam yang khas di badan mereka.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/fauna/jerapah.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Jerapah</h5>
+              <p class="card-text">
+                Jerapah adalah hewan herbivora yang tergolong dalam famili
+                Giraffidae. Jerapah dikenal dengan tubuh yang tinggi dan panjang
+                dengan leher yang sangat panjang yang menjadi ciri khasnya.
+                Jerapah memiliki warna bulu yang beragam dari putih ke coklat
+                kehitaman dengan pola garis-garis hitam yang khas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/fauna/otter.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Berang-berang</h5>
+              <p class="card-text">
+                Berang-berang adalah hewan yang tergolong dalam famili
+                Pteropodidae. Berang-berang dikenal dengan tubuh yang besar dan
+                kuat dengan sayap yang panjang dan kuat. Berang-berang memiliki
+                warna bulu yang beragam dari coklat kehitaman hingga putih dan
+                memiliki ekor yang panjang.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/fauna/raven.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Burung Gagak</h5>
+              <p class="card-text">
+                Gagak adalah hewan burung yang tergolong dalam famili Corvidae.
+                Gagak dikenal dengan bulu berwarna hitam dan memiliki ekor yang
+                panjang dengan bentuk yang unik. Gagak dikenal sebagai hewan
+                yang sangat cerdas dan dapat melakukan berbagai aktivitas yang
+                mirip dengan manusia seperti menggunakan alat dan berkomunikasi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3 gy-4">
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/fauna/simpanse.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Chimpanzee</h5>
+              <p class="card-text">
+                Simpanse adalah hewan primata yang sangat mirip dengan manusia
+                dan termasuk dalam famili Hominidae. Simpanse memiliki tubuh
+                yang kuat dan berotot dengan warna bulu coklat kehitaman dan
+                memiliki wajah yang unik dengan dahi yang cenderung tinggi dan
+                mulut yang besar.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/fauna/singa.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Singa</h5>
+              <p class="card-text">
+                Singa adalah hewan karnivora yang tergolong dalam famili Felidae
+                dan merupakan salah satu hewan pemangsa terkuat di dunia. Singa
+                memiliki tubuh yang kuat dan berotot dengan warna bulu kuning
+                kecoklatan dengan pola garis-garis hitam yang khas di badan
+                mereka.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/fauna/whitetiger.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">White Tiger</h5>
+              <p class="card-text">
+                White Tiger adalah varietas dari hewan singa yang memiliki warna
+                bulu putih, hal ini disebabkan oleh mutasi genetik yang jarang
+                terjadi. White Tiger dikenal sebagai hewan yang langka dan
+                menjadi salah satu yang dilindungi. White Tiger memiliki tubuh
+                yang kuat dan berotot dengan warna bulu putih dengan pola
+                garis-garis hitam yang khas di badan mereka.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/fauna/kakak_tua.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Kakak Tua</h5>
+              <p class="card-text">
+                Burung Kakak Tua adalah hewan burung yang tergolong dalam famili
+                Corvidae, kakak tua dikenal dengan bulu berwarna hitam dan
+                memiliki ekor yang panjang dengan bentuk yang unik. Burung Kakak
+                Tua dikenal sebagai hewan yang sangat cerdas dan dapat melakukan
+                berbagai aktivitas yang mirip dengan manusia seperti menggunakan
+                alat dan berkomunikasi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fauna Card end-->
+    <!-- Flora Card -->
+    <h2 class="text-center my-5" id="flora">
+      FLORA <br />
+      DENPASAR ZOO
+    </h2>
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/flora/anggrek_hitam.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Angrek Hitam</h5>
+              <p class="card-text">
+                Angrek hitam adalah tumbuhan yang termasuk dalam famili
+                Orchidaceae. Angrek hitam dikenal dengan bunga yang besar dan
+                unik dengan warna hitam yang mencolok.Tumbuhan ini dikenal
+                sebagai tumbuhan yang langka dan jarang dijumpai di alam liar.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img
+                src="img/flora/cosmos_atrosanguineus.png"
+                class="card-img-top"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Cosmos Atrosanguineus</h5>
+              <p class="card-text">
+                Cosmos atrosanguineus adalah tumbuhan yang tergolong dalam
+                famili Asteraceae. Tumbuhan ini dikenal dengan bunga yang besar
+                dan berwarna ungu-hitam yang mencolok dan daun yang hijau.
+                Tumbuhan ini dikenal sebagai tumbuhan yang tahan terhadap cuaca
+                panas dan kering, dan dapat tumbuh di berbagai jenis tanah.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/flora/gibraltar_campion.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Gibraltar Campion</h5>
+              <p class="card-text">
+                Gibraltar campion (Silene tomentosa) adalah tumbuhan yang
+                termasuk dalam famili Caryophyllaceae. Tumbuhan ini dikenal
+                dengan bunga berwarna merah muda yang besar dan daun yang
+                berwarna hijau.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img src="img/flora/rafflesia_arnoldi.png" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rafflesia Arnoldi</h5>
+              <p class="card-text">
+                Rafflesia Arnoldi (Rafflesia arnoldii) adalah tumbuhan yang
+                termasuk dalam famili Rafflesiaceae. Tumbuhan ini dikenal
+                sebagai tumbuhan parasit yang tidak memiliki akar, daun, atau
+                batang.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fauna Card end-->
+    <!-- Guest Activity -->
+    <div class="bg-main2 pb-5" id="ga">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center my-5">GUEST ACTIVITY</h2>
+            <p class="text-description">
+              Di Denpasar Zoo Flora and Fauna, tamu dapat menikmati beragam
+              aktivitas yang menyenangkan dan menarik. Beberapa aktivitas yang
+              dapat dilakukan adalah,
+            </p>
+            <ol class="text-description">
+              <li>
+                Bird Presentation, Tamu dapat menyaksikan burung-burung yang
+                dilatih melakukan trik-trik unik serta mengetahui lebih jauh
+                tentang burung-burung yang ada di dunia.
+              </li>
+              <li>
+                Zoo Garden Area: Tamu dapat menikmati berbagai jenis tumbuhan
+                seperti bunga-bungaan, pohon-pohon, tanaman hias, dan lain-lain.
+              </li>
+              <li>
+                Animal Encounter, Tamu dapat menikmati pengalaman yang tidak
+                terlupakan dengan berinteraksi dengan hewan-hewan yang ada di
+                taman.
+              </li>
+              <li>
+                Feeding Time, Tamu dapat menyaksikan hewan-hewan dalam kandang
+                makan serta belajar tentang makanan yang diberikan kepada
+                hewan-hewan tersebut.
+              </li>
+              <li>
+                Flora and Fauna Education, Tamu dapat mengikuti berbagai program
+                edukasi yang diselenggarakan oleh taman, termasuk pemandu wisata
+                yang dapat membantu tamu untuk lebih mengenal hewan-hewan yang
+                ada di taman.
+              </li>
+              <li>
+                Safari Night Walk, Tamu dapat menikmati pengalaman unik
+                berjalan-jalan di taman malam hari dan melihat hewan-hewan yang
+                aktif di malam hari.
+              </li>
+              <li>
+                Photo Spot, Taman ini memiliki berbagai spot yang indah untuk
+                berfoto bersama keluarga dan teman-teman.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Guest Activity Card -->
+    <div class="container mt-5">
+      <div class="row gy-4">
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <a href="animal_encounter.html">
+                <img
+                  src="img/square/animal_encounter.jpg"
+                  class="card-img-top"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Animal Encounter</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <a href="bird_presentation.html">
+                <img
+                  src="img/square/bird_presentation.jpg"
+                  class="card-img-top"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bird Presentation</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <a href="feeding_time.html">
+                <img src="img/square/feeding_time.jpg" class="card-img-top" />
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Feeding Time</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <a href="flora_and_fauna_education.html">
+                <img
+                  src="img/square/flora_and_fauna_education.jpg"
+                  class="card-img-top"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Flora and Fauna Education</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row gy-3 mt-4">
+        <div class="col-sm-4">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <a href="photo_spot.html">
+                <img src="img/square/photo_spot.jpg" class="card-img-top" />
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Photo Spot</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <a href="safari_night_walk.html">
+                <img
+                  src="img/square/safari_night_walk.jpg"
+                  class="card-img-top"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Safari Night Walk</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <a href="zoo_garden.html">
+                <img src="img/square/zoo_garden.jpg" class="card-img-top" />
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Zoo Garden</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Guest Actifity Card end-->
+    <!-- Guest Activity end-->
+    <!-- Profile -->
+    <div class="bg-main pb-5" id="p">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center my-5">PROFILE</h2>
+            <p class="text-description">
+              Denpasar Zoo Flora and Fauna adalah sebuat taman satwa dan taman
+              bunga yang berlokasi di Denpasar, Bali. Taman ini menyajikan
+              beragam jenis satwa dan tumbuhan dari seluruh dunia, termasuk
+              hewan-hewan yang dilindungi dan endemik di Bali. Fasilitas yang
+              tersedia termasuk kandang-kandang yang dirancang untuk menyerupai
+              lingkungan alami hewan, area pemandangan yang indah, dan tempat
+              parkir yang luas. Taman ini juga menyelenggarakan berbagai program
+              edukasi untuk anak-anak dan keluarga, serta acara khusus sepanjang
+              tahun. Denpasar Zoo Flora and Fauna adalah tempat yang sempurna
+              untuk mengejar pengalaman keindahan alam dan mempelajari lebih
+              lanjut tentang satwa dan tumbuhan dunia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Profile end-->
+    <!-- Main Content end -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted mt-5">
+      <section class="d-flex justify-content-center p-4 border-bottom">
+        <div class="me-5 d-lg-block text-center">
+          <h5>
+            <span class="text-center">
+              Denpasar Zoo Flora and Fauna <br />
+              <span>
+                Rumah Belajar dan Hiburan Bersama Hewan Menakjubkan untuk
+                Keluarga
+              </span>
+            </span>
+          </h5>
+        </div>
+      </section>
+      <section>
+        <div class="container text-center text-md-start mt-3">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Denpasar Zoo Flora and Fauna
+              </h6>
+              <p>
+                Denpasar Zoo Flora and Fauna adalah sebuat taman satwa dan taman
+                bunga yang berlokasi di Denpasar, Bali. Taman ini menyajikan
+                beragam jenis satwa dan tumbuhan dari seluruh dunia, termasuk
+                hewan-hewan yang dilindungi dan endemik di Bali.
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Flora</h6>
+              <p>
+                <a
+                  href="index.html#flora"
+                  class="text-decoration-none text-reset"
+                >
+                  Anggrek Hitam
+                </a>
+              </p>
+              <p>
+                <a
+                  href="index.html#flora"
+                  class="text-decoration-none text-reset"
+                >
+                  Cosmos Atrosanguineus
+                </a>
+              </p>
+              <p>
+                <a
+                  href="index.html#flora"
+                  class="text-decoration-none text-reset"
+                >
+                  Gibraltar Campion
+                </a>
+              </p>
+              <p>
+                <a
+                  href="index.html#flora"
+                  class="text-decoration-none text-reset"
+                >
+                  Rafflesia Arnoldi
+                </a>
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Fauna</h6>
+              <p>
+                <a
+                  href="index.html#fauna"
+                  class="text-decoration-none text-reset"
+                  >Jaguar</a
+                >
+              </p>
+              <p>
+                <a
+                  href="index.html#fauna"
+                  class="text-decoration-none text-reset"
+                  >Jerapah</a
+                >
+              </p>
+              <p>
+                <a
+                  href="index.html#fauna"
+                  class="text-decoration-none text-reset"
+                  >Simpanse</a
+                >
+              </p>
+              <p>
+                <a
+                  href="index.html#fauna"
+                  class="text-decoration-none text-reset"
+                  >Kakak Tua</a
+                >
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Guest Activity</h6>
+              <p>
+                <a
+                  href="bird_presentation.html"
+                  class="text-reset text-decoration-none"
+                  >Bird Presentation</a
+                >
+              </p>
+              <p>
+                <a
+                  href="zoo_garden.html"
+                  class="text-decoration-none text-reset"
+                  >Zoo Garden</a
+                >
+              </p>
+              <p>
+                <a
+                  href="animal_encounter.html"
+                  class="text-decoration-none text-reset"
+                  >Animal Encounter</a
+                >
+              </p>
+              <p>
+                <a
+                  href="flora_and_fauna_education.html"
+                  class="text-decoration-none text-reset"
+                  >Flora and Fauna Education</a
+                >
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Kontak</h6>
+              <p><i class="fas fa-location-dot me-3"></i> Denpasar, Bali</p>
+              <p><i class="fas fa-envelope me-3"></i>denzoobali@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Copyright -->
+      <section>
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          @2022
+          <a class="text-decoration-none text-reset fw-bold" href="#">
+            I Kadek Yopi Yanto
+          </a>
+        </div>
+      </section>
+      <!-- Copyright end -->
+    </footer>
+    <!-- Footer end-->
+    <!-- JS -->
+    <script src="library/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="library/jquery-3.6.3/jquery-3.6.3.js"></script>
+    <script src="library/fontawesome-free-6.2.1-web/js/all.js"></script>
+  </body>
+</html>
