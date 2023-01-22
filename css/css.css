@@ -1,0 +1,64 @@
+/* Main Style */
+body{
+    background-color: #ebeef0;
+}
+.bg-main{
+    background-color: #E1FFB1;
+}
+.bg-main2{
+    background-color: #C7F2A4;
+}
+.bg-main3{
+    background-color: #B6E388;
+}
+.bg-main4{
+    background-color: #FCFFB2;
+}
+.weight-main{
+    font-weight: bold;
+}
+.hover-nav-main li a:hover {
+    text-decoration: underline;
+}
+
+/* Font */
+@font-face {
+    font-family: 'font-main';
+    src: url(font/ChunkFive-Regular.otf);
+}
+.font-main{
+    font-family: 'font-main';
+}
+
+/* Zoom Effect */
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.2);
+}
+
+/* Description */
+.text-description{
+    line-height: 40px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.card-main{
+    margin: 0 auto;
+    float: none;
+}
+/* Widget */
+.hov {
+    color: black;
+    transition: all 0.3s;
+}
+.hov:hover {
+    transform: scale(1.1);
+    color: #92b35f;
+    cursor: pointer;
+}
